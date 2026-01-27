@@ -1,0 +1,16 @@
+Copy these environment variables to Vercel:
+
+DB_HOST=62.171.136.64
+DB_PORT=5432
+DB_NAME=eloke_campaign
+DB_USER=eloke_user
+DB_PASSWORD=[Enter the password you just set]
+DB_SSL=false
+
+Instructions:
+1. Go to Vercel Dashboard
+2. Select your project
+3. Go to Settings → Environment Variables
+4. Add each variable above
+5. Make sure to select: Production, Preview, and Development
+6. Redeploy your project
