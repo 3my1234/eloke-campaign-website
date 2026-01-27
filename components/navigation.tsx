@@ -3,6 +3,7 @@
 import { useState, useEffect } from "react";
 import { Menu, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import Image from "next/image";
 
 const navLinks = [
   { href: "#home", label: "Vision" },
@@ -37,10 +38,15 @@ export function Navigation() {
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
           <a href="#home" className="flex items-center gap-3">
-            <div className="w-12 h-12 rounded-full bg-emerald flex items-center justify-center">
-              <span className="text-white font-serif font-bold text-lg">
-                EOV
-              </span>
+            <div className="w-12 h-12 rounded-full overflow-hidden flex items-center justify-center ring-2 ring-emerald/20 shadow-md">
+              <Image
+                src="/images/img2.jpeg"
+                alt="Hon. Eloke O. Victor"
+                width={48}
+                height={48}
+                className="object-cover w-full h-full"
+                priority
+              />
             </div>
             <div className="hidden sm:block">
               <p className="font-serif font-bold text-foreground text-lg leading-tight">

@@ -33,6 +33,10 @@ export const metadata: Metadata = {
     "Federal Constituency",
   ],
   authors: [{ name: "Hon. Eloke O. Victor Campaign" }],
+  icons: {
+    icon: "/images/img2.jpeg",
+    apple: "/images/img2.jpeg",
+  },
   openGraph: {
     title: "Hon. Eloke O. Victor | Fresh Ideas 2027",
     description:
