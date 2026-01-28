@@ -149,7 +149,7 @@ export function Footer() {
 
       {/* WhatsApp Floating Button */}
       <a
-        href="https://wa.me/2349069139404?text=Hello%20Hon.%20Eloke,%20I%20am%20interested%20in%20the%20Fresh%20Ideas%202027%20movement."
+        href="https://wa.me/2349033443807?text=Hello%20Hon.%20Eloke,%20I%20am%20interested%20in%20the%20Fresh%20Ideas%202027%20movement."
         target="_blank"
         rel="noopener noreferrer"
         className="fixed bottom-6 right-6 w-16 h-16 bg-[#25D366] rounded-full flex items-center justify-center shadow-2xl hover:bg-[#20BA5A] hover:scale-110 transition-all duration-300 z-50 group"
