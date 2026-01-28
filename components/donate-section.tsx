@@ -14,15 +14,14 @@ import {
 } from "lucide-react";
 
 const bankDetails = {
-  bankName: "First Bank of Nigeria",
-  accountName: "Eloke O. Victor Campaign",
-  accountNumber: "3012345678",
-  sortCode: "011152003",
+  bankName: "United Bank for Africa",
+  accountName: "Eloke's Victor Okanime",
+  accountNumber: "1004411128",
 };
 
 const cryptoDetails = {
   network: "TRC20 (Tron Network)",
-  walletAddress: "TXyz1234567890abcdefghijklmnopqrst",
+  walletAddress: "TZ7Ad42yrk6WBggisUx3knhAqX6vFNDtZA",
   currency: "USDT",
 };
 
