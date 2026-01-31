@@ -1,13 +1,12 @@
 "use client";
 
-import { Facebook, Twitter, Instagram, Youtube, Mail, Phone, MapPin } from "lucide-react";
+import { Twitter, Instagram, Youtube, Mail, Phone, MapPin } from "lucide-react";
 import Image from "next/image";
 
 const socialLinks = [
-  { icon: Facebook, href: "#", label: "Facebook" },
-  { icon: Twitter, href: "#", label: "Twitter" },
-  { icon: Instagram, href: "#", label: "Instagram" },
-  { icon: Youtube, href: "#", label: "YouTube" },
+  { icon: Twitter, href: "https://x.com/realElokeVictor", label: "Twitter/X" },
+  { icon: Instagram, href: "https://www.instagram.com/realeloke.victor/", label: "Instagram" },
+  { icon: Youtube, href: "https://www.youtube.com/@realElokeVictor", label: "YouTube" },
 ];
 
 const quickLinks = [
@@ -87,9 +86,9 @@ export function Footer() {
             <h3 className="text-lg font-serif font-bold mb-6 text-gold">Contact</h3>
             <ul className="space-y-4">
               <li>
-                <a href="mailto:info@elokevictor2027.com" className="flex items-center gap-3 text-white/70 hover:text-white transition-colors">
+                <a href="mailto:victoreloke4reps@gmail.com" className="flex items-center gap-3 text-white/70 hover:text-white transition-colors">
                   <Mail className="w-5 h-5 text-emerald" />
-                  <span className="text-sm">info@elokevictor2027.com</span>
+                  <span className="text-sm">victoreloke4reps@gmail.com</span>
                 </a>
               </li>
               <li>
