@@ -1,9 +1,10 @@
 "use client";
 
-import { Twitter, Instagram, Youtube, Mail, Phone, MapPin } from "lucide-react";
+import { Facebook, Twitter, Instagram, Youtube, Mail, Phone, MapPin } from "lucide-react";
 import Image from "next/image";
 
 const socialLinks = [
+  { icon: Facebook, href: "#", label: "Facebook" },
   { icon: Twitter, href: "https://x.com/realElokeVictor", label: "Twitter/X" },
   { icon: Instagram, href: "https://www.instagram.com/realeloke.victor/", label: "Instagram" },
   { icon: Youtube, href: "https://www.youtube.com/@realElokeVictor", label: "YouTube" },
